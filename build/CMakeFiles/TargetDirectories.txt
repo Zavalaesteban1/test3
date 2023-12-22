@@ -1,0 +1,3 @@
+/Users/estebanzavala/Desktop/ComputerVision/test3/build/CMakeFiles/MyProject.dir
+/Users/estebanzavala/Desktop/ComputerVision/test3/build/CMakeFiles/edit_cache.dir
+/Users/estebanzavala/Desktop/ComputerVision/test3/build/CMakeFiles/rebuild_cache.dir
