@@ -26,13 +26,15 @@ void print()
     {
 		cap >> image;
 		imshow("testWindow", image);
+        // whats going on
 		cvtColor(image, imgHSV, COLOR_BGR2HSV); //input img, output img, colorspace
 
 		Scalar lower(hmin, smin, vmin);
 		Scalar upper(hmax, smax, vmax);
+        // trynna figure this out
 
 		inRange(imgHSV, lower, upper, mask);
-        
+
 		imshow("HSV Image", imgHSV);
 		imshow("Mask", mask);
 		waitKey(1);
